@@ -1,0 +1,15 @@
+# 1. Ignore EVERYTHING in the project
+*
+# 2. Allow directories so Git can search inside them
+!*/
+# 3. Allow all Python files anywhere
+!*.py
+# 4. Allow your specific dataset file
+!CTG_dataset.csv
+# If it is inside a subfolder, specify the path like:
+# !data/CTG_dataset.csv
+
+# 5. Allow standard documentation / configuration files (optional)
+!.gitignore
+!requirements.txt
+!README.md
