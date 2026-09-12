@@ -13,3 +13,4 @@
 !.gitignore
 !requirements.txt
 !README.md
+!*.sh
